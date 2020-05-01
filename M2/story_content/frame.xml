@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111001111" textdirection="ltr" device="false" fontscale="110" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001111" font="Open Sans" controllayout="npnxnanbsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="pxabnsnfns10111001111" font="Open Sans" controllayout="pxabnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="npxnabnsnfns10111001111" font="Open Sans" controllayout="npxnabnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="npnxnanbnsnfns10111001111" font="Open Sans" controllayout="npnxnanbnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="pxabnsnfns10111001110" font="Open Sans" controllayout="pxabnsnfns10111001110" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Module 2 | Soil Mechanics and Aggregate Production" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111001111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111001111">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcripts</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Futura Book','Futura">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
+      </files>
+    </font>
+    <font name="Futura Book">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="true" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6Qy2J9Noi85.6r7GFhwiGIN" displaytext="Module 2: Units" expand="false" type="slide" />
+        <slidelink slideid="_player.6Qy2J9Noi85" displaytext="Unit 1: Rock and Soil material" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Qy2J9Noi85.6LZRK3mHyaF" displaytext="Soil and Rock" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.5xijDXX6UOt" displaytext="Rock Material" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6leIDXTGvVh" displaytext="Igneous Rock" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.5q78EIe5myN" displaytext="Igneous Rocks" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.5qksVFa6HDV" displaytext="Sedimentary Rocks" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6gQimoDHN7v" displaytext="Metamorphic Rocks" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6cT1byd5xqK" displaytext="Rock Material" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.5rdDFAlarSp" displaytext="Rock Identification" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6UBNT8BF0iK" displaytext="Soil Material" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6OIHsS5R8FU" displaytext="Grain Size" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.6DWiHAqGpxt" displaytext="Summary of Unit 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Qy2J9Noi85.5uJTksA6kKS" displaytext="Unit 1 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6lSHMp0Dt33" displaytext="Unit 2: Aggregate Production" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6lSHMp0Dt33.6ZT6bRuBM4z" displaytext="Aggregate Material" expand="false" type="slide" />
+            <slidelink slideid="" displaytext="Aggregate Sources" expand="true" type="slide">
+              <links>
+                <slidelink slideid="_player.6lSHMp0Dt33.5e9oj0fDIwQ" displaytext="Sand &amp; Gravel" expand="false" type="slide" />
+                <slidelink slideid="_player.6lSHMp0Dt33.6apVadtTvZw" displaytext="Crushed Rock" expand="false" type="slide" />
+                <slidelink slideid="_player.6lSHMp0Dt33.5ks8xTQgZXS" displaytext="Others" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6lSHMp0Dt33.5qkvxM5zo6K" displaytext="Quiz 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.6bFHXeaMbNG" displaytext="Aggregate Strength Property" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.6Pl8MMKiHKz" displaytext="Aggregate Gradation" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.6YTyJ7FDm6B" displaytext="Gradation Curve" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.6EIRrd5d8YR" displaytext="Aggregate Screening" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.6SbY4TgaLR1" displaytext="Summary of Unit 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6lSHMp0Dt33.5oLmXzztlc5" displaytext="Unit 2 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69nZexjVvgI" displaytext="Unit 3: Soil Material Weight-Volume Relationship" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.69nZexjVvgI.6TSfbJygY4m" displaytext="Soil Material: Weight Volume Relationships" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.6MNxOFKpaNt" displaytext="Soil Material: Weight-Volume Equations" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.69W9URqHXDt" displaytext="Volumetric Measure" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.5lnb0DkRwWb" displaytext="Bank and Loose Volume" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.6KQKzH2VVEq" displaytext="Compaction" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.5YN03JKUY9T" displaytext="Shrinkage Factor" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.6LEfhp05PH5" displaytext="Swell Factor" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.6LzuNueYBDt" displaytext="Exercise Question" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.68BWHlfPhXG" displaytext="Summary of Unit 3" expand="false" type="slide" />
+            <slidelink slideid="_player.69nZexjVvgI.5ouuQ7G5MKd" displaytext="Unit 3 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WAuTy7OVKu" displaytext="Unit 4: Soil Compaction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WAuTy7OVKu.5mTk834u3Cp" displaytext="Compaction" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.6hUKLMdTANQ" displaytext="Compaction Benefits" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5hn2pnoiIp7" displaytext="Compaction Curve" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.6Q0gXieXVA6" displaytext="Compaction Tests" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5yloulWxmY9" displaytext="Compaction Tests: Nuclear Densometer" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.6JkD85aoRV7" displaytext="Compaction of Soil: Factors" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.5WAuTy7OVKu.6QeID6cWRUR" displaytext="1. Required Amount of Water" expand="false" type="slide">
+                  <links>
+                    <slidelink slideid="_player.5WAuTy7OVKu.6IN2FFJEMTK" displaytext="Quiz 2" expand="false" type="slide" />
+                  </links>
+                </slidelink>
+                <slidelink slideid="_player.5WAuTy7OVKu.5WRgQbfOHHn" displaytext="2. Rate of Adding of Water" expand="false" type="slide">
+                  <links>
+                    <slidelink slideid="_player.5WAuTy7OVKu.6fT1A4Xiky9" displaytext="Quiz 3" expand="false" type="slide" />
+                  </links>
+                </slidelink>
+                <slidelink slideid="_player.5WAuTy7OVKu.6Wb64J47bp2" displaytext="3. Method of Water Addition" expand="false" type="slide" />
+                <slidelink slideid="_player.5WAuTy7OVKu.6SPPoKyBMuQ" displaytext="4. Weather Conditions" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.5WAuTy7OVKu.6Jps3tyl2WM" displaytext="Compaction Methods" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5XynhqyvQVp" displaytext="Compaction Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5mFmWJ46M6P" displaytext="Equipment Comparison" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.602sctyebef" displaytext="Other Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5hHHdsWJyc6" displaytext="Summary of Unit 4" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.6J4MWm1Eb6v" displaytext="Module 2 Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.5WAuTy7OVKu.5wNusm7qzic" displaytext="Unit 4 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5oRL74yBJht" displaytext="Module 2: Quizzes" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5oRL74yBJht.6bUyCddj3Kb" displaytext="Question 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5oRL74yBJht.5jZjRFtYdF6" displaytext="Question 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5oRL74yBJht.6LJRH3ly9tV" displaytext="Question 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5oRL74yBJht.5wxSzumvwA7" displaytext="Question 4" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6Qy2J9Noi85.6r7GFhwiGIN" slidebank="false" type="slide">principles of soil mechanics   and aggregate production unit 1: rock and soil material unit 1: rock and soil material unit 1: rock and soil material unit 2: aggregate production unit 2: aggregate production unit 2: aggregate production unit 3: soil material relationships unit 3: soil material relationships unit 3: soil material relationships unit 4: soil compaction unit 4: soil compaction unit 4: soil compaction </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6LZRK3mHyaF" slidebank="false" type="slide">soil heavy construction operations mainly involve earthwork operations. rock material  soil material rock material rock is a solid natural element,  which consists one or more minerals. soil material unconsolidated particles in the crust of earth and rock </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.5xijDXX6UOt" slidebank="false" type="slide">rock  material rock is a solid natural element,  which consists one or more minerals. three major classes of rock: igneous,  sedimentary,  and metamorphic. </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6leIDXTGvVh" slidebank="false" type="slide">rock  material lava magma igneous rocks are the initial rocks formed from the cooling and solidification of molten material, including magma and lava. </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.5q78EIe5myN" slidebank="false" type="slide">material rock  igneous rocks could be classified by the rate of cooling. basalt rapid-cooling material form fine-grained rocks granite slow-cooling material create coarse-grained rocks hover over me! hover over me! </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.5qksVFa6HDV" slidebank="false" type="slide">rock  material sediment  formed by: weathering and erosion transported by:  water wind ice mass movement glaciers sedimentary rocks formed by: solidification of sediments sediment sediment compression compression sedimentary rock (hover for example) examples: limestone, dolomite, shale </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6gQimoDHN7v" slidebank="false" type="slide">material rock  metamorphic rocks are the result of transformation  of pre-existing rocks, such as igneous, sedimentary,  or another older metamorphic rocks. pressure from above layers sedimentary or igneous rock heat from lower layers examples: slate, marble,  gneiss (hover) </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6cT1byd5xqK" slidebank="false" type="slide">rock  material tendency of material to break into smaller pieces under duress or contact friable indurate (hard) marble recrystallization under intense heat and pressure shale metamorphic rocks sedimentary rocks </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.5rdDFAlarSp" slidebank="false" type="slide">importance of  rock identification  in heavy  construction 1. excavation method 	 2. use of rock material for      aggregate production drill and blast, hard rocks rippability, sedimentary rocks watch drill and blast in action </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6UBNT8BF0iK" slidebank="false" type="slide">soil material soil includes mineral particles and organic material. mineral particles are the result of physical or chemical weathering of rocks organic material originated from the remains of organisms (e.g. plants and       animals) and their waste products in the environment  soil can also contain liquids and gas </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6OIHsS5R8FU" slidebank="false" type="slide">mineral particles of the soil could be classified based on the grain sizes. soil material particles grain size gravel (coarse aggregate) larger than 4.75 mm (5 mm in canadian standard) sand (fine aggregate) smaller than 4.75 mm (5 mm in canadian standard)  and larger than 0.075 mm silt and clay (fines) smaller than 0.075 mm sample silt clay 0.002 mm </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.6DWiHAqGpxt" slidebank="false" type="slide">summary of unit 1 igneous, sedimentary, and metamorphic are three main types of rock. 2. identification of the rock type is important in       heavy civil operations. 3. soil samples are used to determine the grain-size      distribution (gradation). </slidetext>
+      <slidetext slideid="6Qy2J9Noi85.5uJTksA6kKS" slidebank="false" type="slide">continue to next unit: aggregate production   continue to next unit: aggregate production   continue to next unit: aggregate production   return to module home return to module home return to module home </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6ZT6bRuBM4z" slidebank="false" type="slide">material aggregate aggregates are processed granular mineral particles (including soil and rock). backfill roadbase portland  cement </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.5e9oj0fDIwQ" slidebank="false" type="slide">sources aggregate sources 1. natural sand and gravel deposits  fine aggregate  coarse aggregate gravel pieces  on beach  natural sand natural gravel </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6apVadtTvZw" slidebank="false" type="slide">sources aggregate see how crushed aggregate particles are made! see how a jaw crusher works! </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.5ks8xTQgZXS" slidebank="false" type="slide">sources aggregate other sources of aggregate: slag and mine refuse rubble and refuse artificial and process materials pulverized concrete and asphalt pavement other recycled and waste materials </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.5qkvxM5zo6K" slidebank="false" type="slide">quiz friction is an important property in asphalt concrete pavements (for road safety). which one of the following aggregate types is better for asphalt concrete production?  natural aggregate natural aggregate natural aggregate crushed aggregate crushed aggregate crushed aggregate pulverized concrete pulverized concrete pulverized concrete </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6bFHXeaMbNG" slidebank="false" type="slide">strength aggregate essential strength property = ability of aggregate layers to sustain load without particles sliding over each other. main factor = friction between grains and how well they are interlocked. fig a. fig b. fig c. load sharp edges high friction;  improved sliding resistance densely graded  gaps filled with fine aggregates; more sliding resistance </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6Pl8MMKiHKz" slidebank="false" type="slide">gradation aggregate is one of the most important properties of aggregates grain-size distribution must provide a dense and strong mixture. </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6YTyJ7FDm6B" slidebank="false" type="slide">gradation curve (% of mixture through sieve size) gradation aggregate (a) theoretical maximum density (b) uniform (single size) aggregate (c) gap-graded aggregates (d) open-graded aggregates click on a curve name to learn more! </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6EIRrd5d8YR" slidebank="false" type="slide">aggregate gradation </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.6SbY4TgaLR1" slidebank="false" type="slide">summary of unit 2 1. natural and crushed aggregates are two main aggregate sources 2. shape of the aggregate particles plays a key role in the strength         of a layer 3. gradation is one of the most important properties of aggregate     and contributes to the strength of the mix </slidetext>
+      <slidetext slideid="6lSHMp0Dt33.5oLmXzztlc5" slidebank="false" type="slide">continue to next unit: soil material  continue to next unit: soil material continue to next unit: soil material return to module home return to module home return to module home </slidetext>
+      <slidetext slideid="69nZexjVvgI.6TSfbJygY4m" slidebank="false" type="slide">weight volume relationships soil material  </slidetext>
+      <slidetext slideid="69nZexjVvgI.6MNxOFKpaNt" slidebank="false" type="slide">weight volume relationships soil material  unit weight (y) =                                = total weight            w total volume           v dry unit weight (y  ) =                               = soil particles           w total volume           v s d water content (w) =                                               = weight of water in soil          w weight of soil particles          w w s porosity (n) =                               = voids volume             v total volume              v v void ratio (e) =                                  = volume of voids           v soil volume                  v v s </slidetext>
+      <slidetext slideid="69nZexjVvgI.69W9URqHXDt" slidebank="false" type="slide">volumetric measure depending on the position of earth material in the construction process, the volumetric measure varies. bank volume =&gt; natural condition loose volume =&gt; after excavation, during loading and hauling compacted volume =&gt; after mechanical compaction, also called “net in-place”. </slidetext>
+      <slidetext slideid="69nZexjVvgI.5lnb0DkRwWb" slidebank="false" type="slide">volumetric measure bank volume loose volume bank volume &lt; loose volume </slidetext>
+      <slidetext slideid="69nZexjVvgI.6KQKzH2VVEq" slidebank="false" type="slide">loose volume compacted  volume volumetric measure compacted volume &lt; bank volume &lt; loose volume </slidetext>
+      <slidetext slideid="69nZexjVvgI.5YN03JKUY9T" slidebank="false" type="slide">volumetric measure shrinkage factor shrinkage factor =                               compacted dry unit weight bank dry unit weight shrinkage % =                               (compacted dry unit weight) - (bank unit weight) compacted unit weight x 100 </slidetext>
+      <slidetext slideid="69nZexjVvgI.6LEfhp05PH5" slidebank="false" type="slide">volumetric measure swell factor swell factor =                               loose dry unit weight bank dry unit weight swell % =                               bank dry unit weight loose dry unit weight -1    x 100 ( ) </slidetext>
+      <slidetext slideid="69nZexjVvgI.6LzuNueYBDt" slidebank="false" type="slide">volumetric measure: exercise an embankment will have a net volume of 145000 cubic meter after compaction. the borrow material has a wet unit weight of 2060 kg per cubic meter, water content of 16.5%, and in-place void ratio (e) of 0.62 in bank condition. the thickness of embankment layer is 20 cm with dry unit weight of 1830 kg per cubic meter and water content of 18.3%.  calculate the volume of excavation in the borrow pit. </slidetext>
+      <slidetext slideid="69nZexjVvgI.5l3HAojHLAo" slidebank="false" type="slide">volumetric measure solution view question see question view question see question view question dry unit weight (y  ) =                         = soil particles        w total volume         v s d shrinkage factor =                               compacted dry unit weight bank dry unit weight required equations calculations y    of borrow material =                   = 1768 kg/m3 2060 (1 +0.165) d  y    of fill material = 1830 kg/m3 d  shrinkage factor =            = 1.035    1768  1830  145,000 × 1.035 = 150,075 m3  required from borrow pit </slidetext>
+      <slidetext slideid="69nZexjVvgI.6PvZXBcQnjX" slidebank="false" type="slide">volumetric measure solution con’t view question see question view question see question view question water content calculations water in fill material = 145,000 x 1830 x 0.183 = 48,559,050 kg water in borrow material = 150,075 x 1768 x 0.165 = 43,779,880 kg required water (difference) = 4,779,170 kg or 31.85 liter per cubic meter of borrow material </slidetext>
+      <slidetext slideid="69nZexjVvgI.68BWHlfPhXG" slidebank="false" type="slide">summary of unit 3 1. soil is a mixture of solid particles, liquid (usually water), and gas. 2. calculation of the soil unit weights based on the water content and voids. 3. soil swells after excavation (loose volume), and can be compacted to a smaller volume than the original (bank volume) state. </slidetext>
+      <slidetext slideid="69nZexjVvgI.5ouuQ7G5MKd" slidebank="false" type="slide">continue to next module: soil compaction continue to next module: soil compaction continue to next module: soil compaction return to module home return to module home return to module home </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5mTk834u3Cp" slidebank="false" type="slide">compaction compacted grains loose grains </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6hUKLMdTANQ" slidebank="false" type="slide">compaction benefits increases strength of soil reduces settlements increase bearing capacity control volume changes reduce permeability </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5hn2pnoiIp7" slidebank="false" type="slide">compaction curve essential test to achieve suitable compaction levels represent dry density against the water content of test samples past the optimum level, water replaces soil grains, increasing voids, reduces the dry density of the compacted layer </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6Q0gXieXVA6" slidebank="false" type="slide">compaction tests compaction force = 4.5x larger </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5yloulWxmY9" slidebank="false" type="slide">compaction tests nuclear densometer - measures density of embankment layers </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6JkD85aoRV7" slidebank="false" type="slide">soil compaction factors	 1. required amount of water 2. rate of adding water 3. method of water addition 4. weather conditions </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6QeID6cWRUR" slidebank="false" type="slide">soil compaction factors	 1. required amount of water (desired water content%) amount of water = (water content in borrow%) target dry  density x _ 100 * increase desired water content for 2% above the optimum, as the water may evaporate during process  </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6IN2FFJEMTK" slidebank="false" type="slide">quiz	 1. required amount of water the desired dry unit weight of the fill is 1920 kg per cubic metre. according to the compaction test, the optimum moisture content (omc) is 12%, and the water content of the material is 5%. the embankment layer will be 15 cm and 12.2 metre wide.  calculate the amount of water required for every 100 meter of embankment. view  equation 32,000 liters 32,000 liters 32,000 liters 27,500 liters 27,500 liters 27,500 liters 24,600 liters 24,600 liters 24,600 liters </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6nqY7TfLQTl" slidebank="false" type="slide">quiz: solution	 1. required amount of water the desired dry unit weight of the fill is 1920 kg per cubic metre. according to the compaction test, the optimum moisture content (omc) is 12%, and the water content of the material is 5%. the embankment layer will be 15 cm and 12.2 metre wide.  calculate the amount of water required for every 100 meter of embankment. view  equation solution 12 5 1920 x _ 100 x = 24595 = 24,600 liters 0.15 x 12.2 x 100 </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6DPusU8Cnkz" slidebank="false" type="slide">quiz 2: solution	 2. rate of adding of water what is the application rate water for the previous question (required water was     24,600 litres for 12.2x100 meter area) ? view  equation solution 24,6000 20.16 = 20.2 litre/m2 required water area 12.2 x100 = = </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5WRgQbfOHHn" slidebank="false" type="slide">soil compaction factors	 2. rate of adding of water (% of moisture added) thickness of the compacted lift litres per  square meter  target dry  density x 100 x = </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6fT1A4Xiky9" slidebank="false" type="slide">quiz 2 2. rate of adding of water what is the application rate water for the previous question (required water was     24,600 litres for 12.2x100 metre area) ? view  equation 18.5 liter/m2 18.5 liter/m2 18.5 liter/m2 20.2 liter/m2 20.2 liter/m2 20.2 liter/m2 22 liter/m2 22 liter/m2 22 liter/m2 </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6Wb64J47bp2" slidebank="false" type="slide">soil compaction factors	 3. method of water addition watch water tank in action watch water tank in action watch water tank in action </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6SPPoKyBMuQ" slidebank="false" type="slide">soil compaction factors	 4. weather conditions soil retains moisture cold rainy cloudy calm increased evaporation hot dry sunny windy </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6Jps3tyl2WM" slidebank="false" type="slide">compaction methods static weight pressure abrupt blows impact vibration rearrange grains kneading material not effective very high high low gravel not effective high excellent low sand high excellent low high silt very high high not effective excellent (if confined) clay </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5XynhqyvQVp" slidebank="false" type="slide">compaction methods smooth drum vibratory roller  vibratory tamping foot roller  image placeholder for sheep foot roller sheep foot roller pneumatic roller </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5mFmWJ46M6P" slidebank="false" type="slide">compaction equipment smooth vibratory tamping foot vibration kneading effective not effective not effective effective rock boulders effective acceptable acceptable effective gravel effective acceptable  (not if sand is clean) not effective effective sand material acceptable effective effective effective silt acceptable effective effective effective clay </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.602sctyebef" slidebank="false" type="slide">other equipment vibratory plate compactor  manually operated rammers </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5hHHdsWJyc6" slidebank="false" type="slide">summary of unit 4 1. compaction curve is an important tool to determine the optimum level of water      content for soil compaction. 2. standard and modified proctor tests are common methods to determine the compaction      curve of a soil type. 3. pressure, impact, vibration, kneading of soil grains, or a combination of these      methods can be used for soil compaction. 4. none of these methods is effective in all types of soil and the effectiveness of the      compaction approach depends on the soil properties. 5. proper compaction equipment should be selected accordingly. </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.6J4MWm1Eb6v" slidebank="false" type="slide">summary of module 2 recognition of rock type is essential in heavy civil operations bank, loose, and compact volumes are required to plan for earthmoving operations grain-size distribution (gradation) of soil should be determined  selection of compaction method based on soil classification results calculation of the compaction curve using test samples to determine optimum water content selection of proper compaction equipment </slidetext>
+      <slidetext slideid="5WAuTy7OVKu.5wNusm7qzic" slidebank="false" type="slide">continue to module 2 quizzes continue to module 2 quizzes continue to module 2 quizzes return to module home return to module home return to module home </slidetext>
+      <slidetext slideid="5oRL74yBJht.6bUyCddj3Kb" slidebank="false" type="slide">module 2 quiz  1. which one of the three types of rocks are generally      weaker than the other two? igneous igneous igneous sedimentary sedimentary sedimentary metamorphic metamorphic metamorphic </slidetext>
+      <slidetext slideid="5oRL74yBJht.5jZjRFtYdF6" slidebank="false" type="slide">2. which one of following gradations provides a stronger layer? figure a.        figure a.        figure a.        figure b.        figure b.        figure b.        figure c.        figure c.        figure c.        module 2 quiz  </slidetext>
+      <slidetext slideid="5oRL74yBJht.6LJRH3ly9tV" slidebank="false" type="slide">3. an excavation volume for a foundation is estimated to be      750 bank cubic meters. how many truckloads should you      expect to haul away the excavated material? assume that      a truck can carry 9 m3 and that the swell factor for this       material is 0.87. 84 89 96 module 2 quiz  </slidetext>
+      <slidetext slideid="5oRL74yBJht.5aiR8mN9oaI" slidebank="false" type="slide">96 the weight of total excavated material is equal in bank and loose states. 750 x bank density = v(loose) x (bank density x 0.87) v(loose) = 862 cubic meters truckloads = 862/9 = 96  3. an excavation volume for a foundation is estimated to be 750 bank      cubic meters. how many truckloads should you expect to haul away the      excavated material? assume that a truck can carry 9 m3 and that the      swell factor for this material is 0.87. solution module 2 quiz solution  </slidetext>
+      <slidetext slideid="5oRL74yBJht.5wxSzumvwA7" slidebank="false" type="slide">4. select proper equipment for compaction of a gravel layer.      drag and drop each piece of equipment to its effectiveness level. effective effective acceptable not effective module 2 quiz  </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6Qy2J9Noi85.6r7GFhwiGIN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 1: You will be able to classify different categories of rocks and their origin, including igneous rocks, sedimentary rocks, thermal metamorphic rocks, and stress metamorphic rocks, You will be able to explain components of soil and their main properties.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 2: You will be able to discuss aggregate sources, types, and properties, You will be able to compare different aggregate gradations.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 3: You will be able to explain and apply the concepts of unit weight, swelling, compaction, and volume capacity as they related to heavy civil engineering projects.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 4: You will be able to relate the relationship between water content and compaction level, You will be able to explain the factors influencing the method and level of soil compaction, You will be able to discuss different compaction equipment and their effectiveness in different soil types&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6LZRK3mHyaF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Heavy construction operations mainly involve earthwork operations. Therefore, it is essential to identify earth materials in jobsites and design methods and select appropriate equipment accordingly. Earth materials are  generally classified into: Rock material and soil material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rock material are solid natural elements, which consists one or more minerals whereas soil material are unconsolidated particles in the crust of earth.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.5xijDXX6UOt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As described, Rocks consist one or more minerals.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Depending on their creation mechanism, rocks are classified into three major classes, including: igneous, sedimentary, and metamorphic. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6leIDXTGvVh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Igneous rocks are the initial rocks formed from the cooling and solidification of molten material, including magma and lava.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Magma is the molten material inside the and the lava is the molten material which came out of the crest due to volcanic activities.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.5q78EIe5myN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Igneous rocks could be classified based on the rate of cooling.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rapid-cooling material form fine-grained rocks, such as basalt, and slow-cooling material create coarse-grained rocks, e.g. granite.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Coarse grains are noticeable in the left image whereas the grains in the right samples are fine and difficult to distinguish.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.5qksVFa6HDV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Sediments, including organic particles and minerals, which formed by weathering and erosion from the source area are transported by water, wind, ice, mass movement or glaciers, to the place of deposition.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Sedimentary rocks are formed from the solidification of the sediments deposited under the bodies of water. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Limestone, dolomite, and shale are some examples of sedimentary rocks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6gQimoDHN7v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Metamorphic rocks are the result of transformation of pre-existing rocks, such as igneous, sedimentary, or another older metamorphic rocks. These rocks are transformed by intense heat and/or pressure.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Slate (from shale), marble (from limestone), and gneiss (from granite) are some examples of metamorphic rocks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6cT1byd5xqK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Depending on the formation conditions of rocks, they could be hard or friable.  Friability is tendency of a rack material to break into smaller pieces under duress or contact, specially rubbing. The opposite of friable is called indurate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Due to recrystallization under intense heat and pressure, metamorphic rocks are indurate and hard. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In contrast, some sedimentary rocks are friable and are not suitable choice for some construction applications, e.g. use in concrete production. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.5rdDFAlarSp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is very important in heavy civil engineering operations to identify the types of the rocks. Some of the most important reasons are:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;1- Selection of excavation method&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Igneous and metamorphic rocks are generally hard  and difficult to rip. Powerful equipment and special techniques, such as drill and blast, are required to breakdown and remove these types of rocks. In contrast, friable and low-strength rocks could be excavated using heavy bulldozers equipped with ripper shank. The rippability of a rock material is a measure of its ability to be excavated with mechanical excavation equipment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;2- Identify suitable rock material for aggregate production in close proximity to a heavy construction project&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is critical to assess the origin of bedrock for production aggregate, as it determines physical properties and chemical reactivity of the aggregate particles&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;For example, some applications, such as asphalt concrete, require hard aggregates, and some others, such light-weight concretes, need low density aggregates&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6UBNT8BF0iK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil includes mineral particles and organic material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Mineral particles are the result of physical or chemical weathering of rocks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Organic material originated from the remains of organisms (e.g. plants and animals) and their waste products in the environment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil can also contain liquids and gas .&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6OIHsS5R8FU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Mineral particles of the soil could be classified based on the grain sizes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The smaller particles are sand. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Silt and clay grains are very small. As presented in this figure, silt particles have spherical or cubical shapes, whereas clay grains are flat and plate-shape.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Clay particles are generally smaller than silt particles, and in addition, they exhibit plasticity properties of the soil, as measured by the soils&amp;#39; Atterberg limits.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6Qy2J9Noi85.6DWiHAqGpxt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Summary of the items discussed in this Unit:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Igneous, sedimentary, and metamorphic are three main types of rock&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Identification of the rock type is important in heavy civil operations&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil  samples are used to determine the grain-size distribution (gradation).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6ZT6bRuBM4z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Aggregates are processed granular mineral particles (including soil and rock) which are used either alone, such as backfill, road bases and sub-bases, or in combination with a cementing material, such as Portland cement and asphalt to form concretes. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.5e9oj0fDIwQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are several source for aggregate production, but two of them are the most important ones:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;First source include natural sand and gravel deposits.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Sand and gravel particles that are naturally sorted to eliminate silt and clay and then deposited in stream bed and along the beaches of lakes and seas. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The sand grains are also called fine aggregate and the gravel particles are commonly called coarse aggregate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The grains in left side of the figure are natural sand, and the larger particles in the right side are natural gravel .&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6apVadtTvZw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Second important aggregate source is crushed rocks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Crushed aggregate particles are produced through mining a rock quarry, usually by drilling and blasting, and then crushing the rock fragments into the desired sizes using crushers. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Different types of crushers are used to reduce large rocks into smaller aggregate particles.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Jaw crusher, gyratory crushers, and cone crusher are some examples of industrial crusher.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure shows the mechanism used in a typical jaw crusher.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.5ks8xTQgZXS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are also other sources of aggregate, which have considerably smaller proportion than the other two in the industry.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;These sources, however, are much more sustainable and aimed at reducing landfill by using recycled construction material or waste and recycled materials from other industries, such as mining.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The most important examples include:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Slag and mine refuse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rubble and refuse&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Artificial and process materials&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Pulverized concrete and asphalt pavement&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.5qkvxM5zo6K" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Friction is an important property in asphalt concrete pavements (for road safety). Which one of the following aggregate types is better for asphalt concrete production. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. Natural aggregate &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. Crushed aggerate &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. Pulverized concrete&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6bFHXeaMbNG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The ability of a layer of aggregates to sustain load without particles sliding over each other is an essential strength property.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A main factor in the strength of a layer of aggregate is the friction between the grains and how well they are interlocked. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As it is presented in figure a, aggregate particles distribute the applied loads both horizontally and vertically and excessive load can result in sliding. The magnitude of the applied load is significantly reduced as it distributed over a large area, thus, substantial surface loads can be carried by the underlying aggregate layer without failure.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure (B) shows crushed aggregate with sharp edges which provide high friction and improves the resistance against sliding.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Densely graded layers, in Figure C, in which the gaps are filled with fine aggregates, could provide more resistance against sliding.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6Pl8MMKiHKz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The grain-size distribution, commonly known as Aggregate Gradation, a is one of the most important properties of an aggregate mix.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Most heavy construction applications, such as highway base, cement concrete, and asphalt concrete, require dense and strong aggregate mixtures.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Mechanical shaker is commonly used for sieve analysis to determine aggregate gradation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6YTyJ7FDm6B" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The results of sieve analysis is presented in the for of gradation curve, which represents the percent of the mixture passing a certain sieve size.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In this figure:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Curves (a) show theoretical maximum density curves where a well-distributed of aggregate particles exist in the mix.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Curve (b) illustrates uniform aggregate gradation, in which the majority of aggregate particles have a same size. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Curve (c) shows gap-graded aggregates, in which the mix contain certain size grains and lacks the other sizes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Curve (d) demonstrates open-graded aggregates.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6EIRrd5d8YR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Industrial aggregate screening systems use pressurized water spray to clean aggregates from deleterious material, such as dust, clay, and organic material, and employ series of vibrating screens and conveyors to produce aggregate according to gradation specifications.   &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lSHMp0Dt33.6SbY4TgaLR1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Natural and crushed aggerates are two main aggregate sources.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Shape of the aggregate particles plays a key role in the strength of a layer.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Gradation is one of the most important properties of aggregate and contributes to the strength of the mix.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6TSfbJygY4m" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As mentioned before, soil usually includes solid particles, liquid (mainly water), and gases, mainly air. The weight an volume composition of the soil can be visualized like this, and each of the components has their corresponding weight and volume. The weight of the air is too small compared to water and solid particles, so it is considered as zero.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Combination of the air and water volumes is the volume that is not occupied by solid particles and called voids volume .&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6MNxOFKpaNt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Using the variables introduced, we can derive useful relationships:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Unit weight equals to the total weight of the soil divided by its total volume&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Dry unit weight equals to the weight of the solid particles  divided by total volume&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Water content percentage equals to the weight of the water in the soil divided by the weight of the solid particles&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Porosity percentage equals to the void volume in the soil divided by the total volume&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;And finally, Void ratio equals to the void volume in the soil divided by the volume of the solid particles&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.69W9URqHXDt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Depending on the position of earth material in the construction process, the volumetric measure varies.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;First, Bank volume is the volume of the soil in the natural condition.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Second, Loose volume which is the volume of the same weight, but after excavation and during loading and hauling. Due to the disturbance in the proportions of the soil component, soil material swell after excavation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Finally, Compacted volume is the volume of the soil after mechanical compaction, also called net in-place.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.5lnb0DkRwWb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure shows the bank volume in the natural state and swelled soil after excavation, which is called loose volume.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Loose volume of the certain weight of soil is greater than its bank volume&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6KQKzH2VVEq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure represents loose volume during hauling and the compacted volume after mechanical compaction.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Loose volume of the certain weight of soil is greater than its compacted volume.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.5YN03JKUY9T" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Shrinkage factor of the soil after compaction can be calculated using the following formula:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Shrinkage factor equals to the compacted dry unit weight divided by the bank dry unit weight.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Shrinkage percentage equals to the compacted dry unit weight minus bank unit weight divided by the compacted unit weight multiplied by 100.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6LEfhp05PH5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Swell factor of the natural soil after excavation can be calculated using the following formula:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Swell factor equals to the loose dry unit weight divided by the bank dry unit weight.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Swell percentage equals to the bank dry unit weight divided by loose dry unit weight minus 1 multiplied by 100.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6LzuNueYBDt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Exercise&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;An embankment will have a net volume of 145000 cubic meter after compaction. The borrow material has a wet unit weight of 2060 kg per cubic meter, water content of 16.5%, and in-place void ratio (e) of 0.62 in bank condition. The thickness of embankment layer is 20 cm with dry unit weight of 1830 kg per cubic meter and water content of 18.3%. Calculate the volume of excavation in the borrow pit.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.5l3HAojHLAo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;First we can calculate unit dry weight of the borrow material using it wet unit weight and water content, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Given the unit dry weight of the fill material, we can calculate the Shrinkage Factor. Thus, using the  shrinkage factor and the required compacted volume, the required volume from the borrow pit is calculated.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.6PvZXBcQnjX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The water content should be calculated as well:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The next step is to calculate the needed water in the fill material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Then the existing water in the  borrow material is calculated.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The required water is the difference of the required and existing water.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="69nZexjVvgI.68BWHlfPhXG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Summary of Unit 3&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil is a mixture of solid particles, liquid (usually water), and gas.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Calculation of the soil unit weights based on the water content and voids.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil swells after excavation (loose volume), and can be compacted to a smaller volume than the original (bank volume) state.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5mTk834u3Cp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Soil compaction is the process of applying stress to a soil layer which displaces air from the voids between the soil grains and results in densification of the layer.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As presented here, mechanical equipment are commonly used for compaction of the soil. The compacted sample in the left image presents much denser composition of soil grains compared to the loose grains in the right image.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6hUKLMdTANQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Compaction improves the following properties of the soil:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It increases the strength of the soil&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It reduces settlements &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Compaction increases bearing capacity&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is used to control volume changes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;And lastly, it reduces permeability of the soil&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5hn2pnoiIp7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Water content plays a key role for optimum compaction.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Therefore, compaction curves are used to represent dry density against the water content of test samples.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Compaction curve is an essential test to achieve suitable compaction levels.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In this figure, two curves are presented and each of theses two curve is the result of a one type of experiment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In both methods, the dry density of the soil increases by increasing the water content, because adding water lubricates soil grains and facilitates densification of the soil through compaction process. However, after a certain water content, about 16.5% in the standard proctor sample in this figure, the density starts to drop. Because the water content has passes the optimum level and instead of working as a lubrication film, it starts to replace soil grains and therefore increases the voids and reduces the dry density of the compacted layer.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6Q0gXieXVA6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Both compaction tests are illustrated here.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In the standard proctor test in the left side, a 5.5 lb weight is used to compact three layers of soil sample, where each layer is compacted by the weight released 25 times from 12 inches.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The configuration of the modified proctor test is rather similar, but the modified proctor test uses heavier weight, which is 10 lb, and higher drop levels, thus the compaction force is much larger than the force used in the standard proctor test.  The compaction force in the modified test is about 4.5 times larger than the force applied in the standard test. That is the main reason why larger densities are achieved in the modified proctor test.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5yloulWxmY9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are also advanced instruments to test the compaction of a soil layer in-place. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Nuclear densometer is a common equipment that is used in the heavy construction industry, namely highway construction, to measure the density of the embankment layers in place.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This instrument uses the gamma-ray scattering in the material to measure density, either by direct transmission or the backscatter method.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6JkD85aoRV7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The following factors should be considered before starting compaction process:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Required amount of water&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rate of adding water&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;3. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Method of water addition&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;4. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;And Weather conditions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6QeID6cWRUR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The most important factor is to estimate the required amount of water.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;To estimate the required amount of water, we need to have desired water content from proctor test and also measure the water content in the borrow are. The we can measure the required amount of water using this formula.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is a common practice to increase the desired water content for 2% above the optimum, because a portion of water might evaporate during the process, but it depends on the soil type and weather condition.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6IN2FFJEMTK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Quiz&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The desired dry unit weight of the fill is 1920 kg per cubic meter. According to the compaction test, the optimum moisture content (OMC) is 12%, and the water content of the material is 5%. The embankment layer will be 15 cm and 12.2 meter wide. Calculate the amount of water required for every 100 meter of embankment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6Wb64J47bp2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The third important factor is to determine method of water addition to the soil.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In these methods, water is sprayed on the water using water tankers installed on trucks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Ponding is another approach for adding water, but it is less common compared to using water tankers.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6SPPoKyBMuQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;4. Weather conditions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Weather condition during compaction can considerably affect the moisture content. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 72, 96, 144]' blockindent='72' indent='-24'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 72px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Cold, rainy, cloudy, and calm weather =&amp;gt; retains moisture&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 72, 96, 144]' blockindent='72' indent='-24'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 72px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Hot, dry, sunny, and windy weather =&amp;gt; increases evaporation rate, might need to increase moisture above the optimum level&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6Jps3tyl2WM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Compaction of soil is typically achieved trough a mechanical process. Mechanical compaction of the soil can be done either by:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Pressure by applying static weight&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Impact by applying  abrupt blow&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Vibration&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Kneading by rearrange soil grains&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 12, 48, 96, 144]' blockindent='12' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 12px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A combination of the above methods&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;But, none of these methods is effective in all types of soul and depending on the component of the soil, we have to select an effective solution. This table summarizes compaction methods and their effectiveness in different soil materials&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5XynhqyvQVp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Roller are the most common equipment used for compaction of the soil. Rollers have a number subclasses and each of the subclasses is able to provide one or more type of compaction method, and therefore is suitable for compaction of certain types of soil.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5mFmWJ46M6P" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As mentioned before, effective compaction methods should be selected based on the soil material. Since the mentioned equipment are able provide one, two, or three compaction methods, therefore, each roller type is effective in certain type of soil.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.602sctyebef" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In practice, there are several areas that roller can not be used, such as small areas and confined zone where the roller can not operate or it is not feasible to transport a roller there. Moreover, rollers might not be able to compact soil close to sensitive structures.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are small compaction equipment which are useful for those areas. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This machine applies vibration for compaction of soil.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This machine applies impact and some level of vibration for compaction of soil.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Both of these equipment are manually guided and operated.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.5hHHdsWJyc6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;1. Compaction curve is an important tool to determine the optimum level of water content for soil compaction.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;2. Standard and modified proctor tests are common methods to determine the compaction curve of a soil type.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;3. Pressure, impact, vibration, kneading of soil grains, or a combination of these methods can be used for soil compaction.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;4. Calculation of the compaction curve using test samples to determine optimum water content.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;5. None of these methods is effective in all types of soil and the effectiveness of the compaction approach depends on the soil properties.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;6. Proper compaction equipment should be selected accordingly.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5WAuTy7OVKu.6J4MWm1Eb6v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Recognition of rock type is essential in heavy civil operations&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Grain-size distribution (gradation) of soil should be determined &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bank, loose, and compact volumes are required to plan for earthmoving operations&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Calculation of the compaction curve using test samples to determine optimum water content&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Selection of compaction method based on soil classification results&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 24px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Selection od proper compaction equipment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 24, 48, 96, 144]' blockindent='24' indent='-24'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
