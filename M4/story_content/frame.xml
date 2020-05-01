@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111001101" textdirection="ltr" device="false" fontscale="110" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Open Sans" controllayout="npnxnanbsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001101" font="Open Sans" controllayout="pxabnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="npxnabnsnfns10111001101" font="Open Sans" controllayout="npxnabnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Open Sans" controllayout="npnxnanbnsnfns10111001101" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001100" font="Open Sans" controllayout="pxabnsnfns10111001100" colorscheme="pxabnsnfns10111001101" string_table="pxabnsnfns10111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Module 4 | Earthmoving Operations and Equipment" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns10111001101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns10111001101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+    <font name="Futura Book','Futura">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Futura Book">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5mteusUt4jY.6BgDXLoPjFQ" displaytext="Module 4: Units" expand="false" type="slide" />
+        <slidelink slideid="_player.6TpmpqLZOsn" displaytext="Unit 1 : Equipment types and application areas" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6TpmpqLZOsn.6ZxDEgzNcSG" displaytext="Basics of Equipment Selection" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6OAg3zncoLM" displaytext="Identify Suitable Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.5s3eGuaQDLQ" displaytext="Earthwork Operations and Equipment Packages" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6rKJcKkJaCy" displaytext="Identify Physical Properties" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6IDp12A4m8I" displaytext="Equipment Selection" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6YfgAWkJHqj" displaytext="Maintenance and Support" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6Jb7mnW9z2j" displaytext="Equipment Selection Considerations" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6mFHP6UEwGL" displaytext="1. Tires and tracks" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6TpmpqLZOsn.6GyeY1sISbL" displaytext="1. Tires and tracks" expand="false" type="slide" />
+                <slidelink slideid="_player.6TpmpqLZOsn.6XW5s33C9ke" displaytext="1. Tires and tracks" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6TpmpqLZOsn.6JDSHYz8wbx" displaytext="2.  Buckets and blades" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6TpmpqLZOsn.6jAqAbYBGJM" displaytext="2.  Buckets and blades" expand="false" type="slide" />
+                <slidelink slideid="_player.6TpmpqLZOsn.5k9kGCf64Gh" displaytext="2.  Buckets and blades" expand="false" type="slide" />
+                <slidelink slideid="_player.6TpmpqLZOsn.5f6z39MpuY8" displaytext="2.  Buckets and blades" expand="false" type="slide" />
+                <slidelink slideid="_player.6TpmpqLZOsn.6CEE3d1ZQQY" displaytext="2.  Buckets and blades" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6TpmpqLZOsn.6RmzEvKZLN9" displaytext="3. End-effectors and accessories" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6TpmpqLZOsn.5jPoTFBKuPk" displaytext="3. End-effectors and accessories" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6TpmpqLZOsn.5xYJffY93tA" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.5qp5nmnOI1V" displaytext="Quiz 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6cBrbb6hqNI" displaytext="Quiz 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.6oEQO1v0Sg9" displaytext="Summary Unit 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6TpmpqLZOsn.64BVWi5wtj9" displaytext="Unit 1 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6lkho32dU8U" displaytext="Unit 2: Earthmoving equipment and production levels: dump trucks and bulldozers" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6lkho32dU8U.5VtaX3P2gNA" displaytext="Dump Trucks" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5zZwQ9ETBKv" displaytext="Dump Truck Capacity" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6og21YRj00C" displaytext="Dump Truck Tarps" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5XT2YDilG1B" displaytext="On-highway Dump trucks" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.67jPWon68Cl" displaytext="Off-highway Dump trucks" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5xrZaV7vqRA" displaytext="1. Rigid body" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5csLq2byEcl" displaytext="2. Articulated body" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5bFosv8xv98" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6EYVd8A3Xnn" displaytext="Bulldozers" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5pcL8EU2TYK" displaytext="Bulldozer Purposes" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6eii2fUw2O4" displaytext="Bulldozer Capacity and Productivity" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6lkho32dU8U.5u8glO1OJON" displaytext="Bulldozer Capacity and Productivity" expand="false" type="slide" />
+                <slidelink slideid="_player.6lkho32dU8U.6eUvHyEDgfw" displaytext="Bulldozer Capacity and Productivity: Example" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6lkho32dU8U.6GCl2w2EmW5" displaytext="Bulldozer Production Curves" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5XxZZZJSH1b" displaytext="Correction Factors" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.5WArRM2pf2z" displaytext="Quiz 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6aJYTdiheJJ" displaytext="Quiz 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6qMjgDPfrbW" displaytext="Summary Unit 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6lkho32dU8U.6XR8R1K1fDi" displaytext="Unit 2 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6SeIM35tAZ0" displaytext="Unit 3: Earthmoving equipment and production levels: excavators and graders" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6SeIM35tAZ0.5z7FVFsC9PN" displaytext="Excavators" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.63CXCgvoSZD" displaytext="Excavator Arm" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6JitYPt2BVL" displaytext="Excavator Bucket Capacity" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5YaKumi9jlj" displaytext="Productivity" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.62gLHjxJvxA" displaytext="Cycle Times" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6IQh3vLe2CD" displaytext="Digging Envelope" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5vaGVBVp1ij" displaytext="Correction Factor (AS:D)" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6ATVnbAERdl" displaytext="Productivity Example" expand="false" type="slide" />
+            <slidelink slideid="" displaytext="Productivity Solution" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6SeIM35tAZ0.5eYZ9WuRqLC" displaytext="Productivity Solution 1" expand="false" type="slide" />
+                <slidelink slideid="_player.6SeIM35tAZ0.6VzMRPTD4fL" displaytext="Productivity Solution 2" expand="false" type="slide" />
+                <slidelink slideid="_player.6SeIM35tAZ0.6Gty2VWe83f" displaytext="Productivity Solution 3" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6SeIM35tAZ0.6NEmA0NPBWc" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6SieP1fe6MU" displaytext="Graders" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6NmLh2jZCQW" displaytext="Grader Operations" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5hOnKNa9YB1" displaytext="Time Estimation" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5j0UyxgvjiU" displaytext="Grader Time Example" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5c3Z7dgrWre" displaytext="Quiz 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5zeJrzdK3ty" displaytext="Summary Unit 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.6KU2yro9Ie4" displaytext="Summary Module 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6SeIM35tAZ0.5uUAABCg8gm" displaytext="Unit 3 Complete!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WojBVpPgkZ" displaytext="Module 4 Quizzes" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WojBVpPgkZ.5mPPMtlBg5j" displaytext="Module Quiz 1" expand="false" type="slide" />
+            <slidelink slideid="_player.5WojBVpPgkZ.6MKGN54Stye" displaytext="Module Quiz 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5WojBVpPgkZ.6KCzTtvRyv3" displaytext="Module Quiz 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5WojBVpPgkZ.6q9pkrpabum" displaytext="Module Quiz 4 " expand="false" type="slide" />
+            <slidelink slideid="_player.5WojBVpPgkZ.67UDOHMgHa1" displaytext="Module Quiz 5" expand="false" type="slide" />
+            <slidelink slideid="_player.5WojBVpPgkZ.6UkoDYK0J3E" displaytext="Module Quiz 6" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5mteusUt4jY.6BgDXLoPjFQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 1:&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to identify different types of equipment used on earthmoving operations&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to differentiate the use cases for each type of earthmoving operation&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 2:&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to explain different types and capacities of dump trucks&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to calculate production levels for bulldozers in different site conditions using equipment charts&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In Unit 3:&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to calculate production levels for excavators in different site conditions&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;- You will be able to explain application areas and production levels for graders&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6ZxDEgzNcSG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Basics of Equipment Selection&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Selection of a an appropriate piece of equipment directly affects productivity, profit, as well as safety of the heavy civil projects.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;You might ask whether this excavator &lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Can load this large dump truck?!!!&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The key issue is that the selected equipment must match the job type and size, and site conditions.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6OAg3zncoLM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Identify Suitable Equipment&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;First step in selection of equipment is to identify suitable machines the can carry out the job. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Some equipment are designed to carry out a certain task. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;For example, rollers are mainly used for compaction.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Whereas some machines can carry out a variety of operations. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;For instance, bulldozers can excavate, spread earth material, rip the rocks, backfill, and some other operation. These equipment, however, might need changing the end-effector to do certain tasks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5s3eGuaQDLQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Earthwork Operations and Equipment Packages&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This table includes main earthwork operations and equipment packages.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6rKJcKkJaCy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Identify Physical Properties&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In addition to the type of the job, it is important to determine type and physical properties of the earth material and choose the right power, end-effector, and accessories for the equipment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Heavy crawler track equipment =&amp;gt; used for excavation and loading of rock material and hard surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rubber-tired and medium/light crawler track equipment =&amp;gt; used for excavation and loading of medium and loose material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6IDp12A4m8I" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Equipment Selection&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The next important factor in selection of equipment is to analyze whether the size and capacity of the equipment matches the volume of work. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Overloading a machine can damage it in two ways:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Structural or mechanical damage&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Stability failure&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6YfgAWkJHqj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Maintenance and Support&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Another important factor is to assess the availability of on-time and proper maintenance and technical support for the considered equipment.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Futura Book' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Job conditions are harsh in heavy civil project and the rates of various mechanical failures are high, and the equipment require frequent maintenance. So it is essential to make sure that the maintenance and repair services are available for the selected equipment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6Jb7mnW9z2j" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Equipment Selection Considerations&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The following factors should be considered during equipment selection process:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 54, 96, 144]' blockindent='54' indent='-54'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 54px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Tires and tracks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 54, 96, 144]' blockindent='54' indent='-54'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 54px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Buckets and blades&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 54, 96, 144]' blockindent='54' indent='-54'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 54px"&gt;3. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;End-effectors and accessories&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6mFHP6UEwGL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;1. Tires and tracks&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 54, 96, 144]' blockindent='54' indent='-54'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As mentioned before, crawler track and rubber tires have different coefficients of traction in different surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;So it is better to select a system that has a better traction in the work zone.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6GyeY1sISbL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;1. Tires and tracks (Con&amp;#39;t)&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Moreover, track and tires have different affects rolling resistances in various surface types.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As a result, selection of a track or wheeled equipment can affect required effort, travel times, productivity, as well as the wear and tear of the equipment.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6XW5s33C9ke" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;1. Tires and tracks (Con&amp;#39;t)&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This table provides a set of recommendations based on job requirements.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6JDSHYz8wbx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;2.  Buckets and blades&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The shape and size of the buckets and their teeth depend on the type of the material to be moved or excavated.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Wider buckets are typically used for excavation and loading of soft and loose material (the bucket in right side), whereas narrow and longer buckets are used for digging  in hard surfaces (left side bucket).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6jAqAbYBGJM" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;2.  Buckets and blades&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Different teeth options are available for the buckets:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Narrow, sharp, and long teeth are used for penetration in hard surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Short and wide teeth are used for most regular operation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure shows standard short and long teeth together with a specially designed bucket tooth for penetration in hard surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5k9kGCf64Gh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;2.  Buckets and blades (con’t)&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bucket used for loading loose material or used for trimming and sloping are toothless.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5f6z39MpuY8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;2.  Buckets and blades&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Different blade forms are also used for bulldozers.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Straight blades are the most common form of blades for bulldozers which are mainly used for stripping, surface excavation, and short distance push.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Angle blades are mainly used for ditch excavation and side casting. Angle blades are typically wider than straight blades and also could be used for excavation in soft and fine material surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6CEE3d1ZQQY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;2.  Buckets and blades&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Different blade forms are also used for bulldozers.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Cushion blade are primarily used for pushing scrapers during loading as they are reinforced for this task.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;These blades can also be used for light excavations.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Universal blades have tilted sides which reduce spillage of the materials from the sides, which make these blades ideal for long pushes of earth material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6RmzEvKZLN9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;3. End-effectors and accessories&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Some equipment types can carry out different operations if equipped with proper end-effectors / accessories.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are variety of end-effectors /accessories for excavators, such as hammers to break rocks and concrete (as shown in the image), roadheader to grind hard surfaces, and cutters to cut asphalt and concrete.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5jPoTFBKuPk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;3. End-effectors and accessories&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A set of small rippers could be installed on graders for light ripping.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bulldozer rippers are larger and used for heavy ripping in hard surfaces.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5xYJffY93tA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Which one of the following factors is not as important as the others in selection of equipment?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. Size of the equipment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. Type of the equipment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. Model of the equipment&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;d. Crawler track or tire&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.5qp5nmnOI1V" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz 2:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Drag and drop these blade figures in the correct answer boxes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Universal blades are used for pushing material in long distances, angle blades are employed for finishing slopes and cutting ditches, and straight blades are used for common operations, including backfilling.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6qXoKUNJ4UC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Universal blades are used for pushing material in long distances, angle blades are employed for finishing slopes and cutting ditches, and straight blades are used for common operations, including backfilling.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6cBrbb6hqNI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Choose the correct answer for each requirement.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6TpmpqLZOsn.6oEQO1v0Sg9" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Summary of Unit 1&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is critical to select an equipment fleet that matches the type and size of the required work&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Crawler track and rubber tires have different performances in different jobsite conditions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;3. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Suitable bucket and blade shapes should be selected for different site conditions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;4. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are various types of end-effectors and accessories  for some equipment, such as excavators and bulldozers, which can diversify their application areas&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5VtaX3P2gNA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Dump Trucks&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Trucks are the most common type of hauling equipment with rather low cost, because they can travel with high speed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Dump trucks can be classified in different ways:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;On-highway and off-highway dump trucks, some classes of dump trucks can not operate on public roads and they are only allowed to work within construction or mining sites, because of their wide bodies and very heavy weights.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rigid and articulated-body dump trucks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Dump trucks can also be classified based on the way that they dump their load. Although most dump trucks are rear-dump, but there are some special-purpose trucks which are designed to dump their load from the side or bottom of their bed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5zZwQ9ETBKv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Dump Truck Capacity&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Trucks are the most common type of hauling equipment with rather low cost, because they can travel with high speed.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Dump trucks can be classified in different ways:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;On-highway and off-highway dump trucks, some classes of dump trucks can not operate on public roads and they are only allowed to work within construction or mining sites, because of their wide bodies and very heavy weights&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rigid and articulated-body dump trucks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Dump trucks can also be classified based on the way that they dump their load. Although most dump trucks are rear-dump, but there are some special-purpose trucks which are designed to dump their load from the side or bottom of their bed&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6og21YRj00C" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Dump Truck Tarps&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;In addition, a tarping system is commonly used to cover the open-box bed of dump trucks in public roads.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5XT2YDilG1B" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;On-highway Dump trucks&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As discussed before, dump trucks can be classified into on-highway and off-highway dump trucks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 48px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This type of dump trucks are designed to meet the size and weight limitation of public roads, so they could be used to haul earth material (and other construction material such as hot asphalt) using public roads.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 48px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;They are usually rigid-frame and rear-dump.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are different sizes and capacities for on-highway dump trucks.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.67jPWon68Cl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Off-highway Dump trucks&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 48px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;These type of dump trucks are used in both mining and heavy civil projects&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 48px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are various types of off-highway dump trucks with various capacities. They are chosen based on the technical requirement and road specifications of the jobsite.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5xrZaV7vqRA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;1.   Rigid body&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Usually have high capacities (could be more than 267 m3 or 350 yd3)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The roads should be wide enough without tight turns&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Off-highway dump trucks are wide and very heavy and are not allowed to operate on public roads. They are usually transported by truck trailers as oversize load in highways.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5csLq2byEcl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Off-highway Dump trucks&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;2.   Articulated body (articulated hauler)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Limited capacity (less than 25 m3)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Mostly all-wheel drive&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Symbol' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Flexible and can operate in low quality and narrow roads and high slopes (rough terrain) with tight turns &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5bFosv8xv98" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Tarp system in on-highway dump truck is used to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. Increase capacity of dump trucks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. Increase safety in public roads&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. Increase speed of dump trucks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;d. Reduce fuel consumption of dump trucks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6EYVd8A3Xnn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozers&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bulldozer, also called dozer, is a tractor-power equipment with a blade attached in front&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;There are two types of dozers:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Crawler type dozers&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Rubber tire type dozers&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The majority of the dozers, however, are crawler type as the provide much better traction and usable power in rough terrains.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5pcL8EU2TYK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozers&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bulldozers are used for various purposes, but the most common applications are:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Stripping and land clearing&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Sidehill cuts&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Ditching&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Backfilling&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Ripping rocks or frozen ground&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Spreading&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Slot dozing&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 96, 144]' blockindent='96' indent='-48'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 96px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Blade-to-blade dozing&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='-48'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Blade to blade, or side by side dozing, is a special configuration of dozers to push the material beside each other to minimize the spillage of the loose material from the one side (or both sides) of the blade &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6eii2fUw2O4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozer Capacity and Productivity&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A bulldozers does not have a certain volumetric capacity, and it depends on:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The material in front of the blade&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Type of the material it operates on&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;For example, some cohesive material such as clay boil and heap in front of the blade.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Productivity of the dozers is typically greater in coesionless material, such as sand and gravel.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5u8glO1OJON" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozer Capacity and Productivity&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Bulldozer cycles can be divided into push, return, and maneuver tasks:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Thus, the productivity can be calculated as.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;All times are in minute&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6eUvHyEDgfw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozer Capacity and Productivity: Example&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A dozer pushes an average blade load of 4.8 cubic meters. The average push distance is 30 meters. Calculate the production in loose cubic meters. Material is loose sand.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6GCl2w2EmW5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Bulldozer Production Curves&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Most equipment manufacturing companies provide production curves for their dozers, based on “ideal conditions”.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This figure shows sample production curves for two types of dozers with straight blades. For example, if we want to use a 220 horsepower dozer in a stripping operation with an average pushing distance of 90 meters.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The average production rate will be 150 cubic meters per hour.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5XxZZZJSH1b" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Correction Factors&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Since these curves provide the production rates under “ideal conditions”, correction factors should be applied&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Sample correction factors:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Operator skill&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Highly skilled: 1; average skill: 0.75; low-level: 0.6&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Efficiency&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Or active minutes per hour, e.g. 45 min/hr =&amp;gt; correction factor is 0.75&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Material type:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Very loose: 1.2; hard and frozen: 0.8; very cohesive: 0.8; rock and blasted: 0.6-0.8 &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Low visibility &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Fog, low light, or very dusty: 0.8&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Group work&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Blade-to-blade dozing: 1.2 (because it minimizes the material spillage from the sides) &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.5WArRM2pf2z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz 2:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Using this performance chart, what is the expected production of a 220hp dozer in 30 meter push with an efficiency of 55 min/hr.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. 323 cubic meters/hr&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. 355 cubic meters/hr&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. 372 cubic meters/hr&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;d. 420 cubic meters/hr&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6aJYTdiheJJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz 3:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A bulldozer will have the highest production rate in excavation of :&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. Cohesive clay&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. Hard and frozen grounds&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. Blasted rocks&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;d. Loose sand and gravel&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6lkho32dU8U.6qMjgDPfrbW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Summary of Unit 2&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Different types of dump trucks, including on-highway and off-highway, and rigid and articulated body dump trucks were discussed&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Characteristics and production levels  for bulldozers in different site conditions were explained&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;3. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Application of production curves for bulldozers were demonstrated&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5z7FVFsC9PN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Excavators&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Excavators are among the most versatile construction equipment and used for variety of purposes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Similar to bulldozers, there are two main types of excavators:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Crawler type&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Wheeled type&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The crawler excavators are the most common type as they provide much better traction and are more stable in rough terrains.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.63CXCgvoSZD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Excavator Arm&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Main components of an excavator arm are: Stick cylinder, Boom, Dipper stick, bucket cylinder, bucket.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6JitYPt2BVL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Excavator Bucket Capacity&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A main factor in excavator production is the bucket capacity.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;For example in this image, the material volume is almost the same as the physical volume of the bucket, which is called struck capacity.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;But in this case, the material volume is greater than the physical volume of the bucket, which is called heaped capacity.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5YaKumi9jlj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Productivity&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Excavator production rate can be calculated with the following formula. This equation can estimate the volume of a excavated material in an hour, which depends on jobsite conditions&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Where:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Q = heaped bucket capacity&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;F  = bucket fill factor&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;AS:D = angle of swing and depth of cut correction&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;t = cycle time in seconds&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;E = efficiency (min per hour)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='48' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Volume correction for loose volume to bank volume = &lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;i&gt; 1/ (1+swell factor)&lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This table presents the fill factor for different types of material.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As presented here, large rocks and boulders are the most difficult items to fill the bucket, which result in lower productivity.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.62gLHjxJvxA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='2.5pt' style='font-size:2.5pt' color='#444444'&gt;&lt;b&gt;Cycle Times&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='2.5pt' style='font-size:2.5pt' color='#444444'&gt;Typical cycle times for average size excavators are (usually provided by manufacturer):&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='2.5pt' style='font-size:2.5pt' color='#444444'&gt;However, these times can vary depending on some factors such as:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='2.5pt' style='font-size:2.5pt' color='#444444'&gt;Operator skill, material type, angle of swing, positioning of the equipment, and visibility.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6IQh3vLe2CD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Digging Envelope&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Excavator manufacturers provide a detailed graph which shows the range dimensions of their products.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;A critical parameter is the maximum digging depth.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The best productivity could be achieved in the range of 30%-50% of the maximum depth.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5vaGVBVp1ij" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Correction Factor (AS:D)&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;How to find the correction factor (AS:D) for angle of swing and excavation depth?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;This table provides correction factors for the effects of angle of swing and depth of excavation.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As you can see here, a pattern is noticeable.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;As the angle of swing increases, the factor drops. The reason is that the excavator needs to swing for longer time, which reduces overall production.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The trend for the depth, however, is different. As you can see here, the best performance can be achieved at the optimum digging depth, which is around 30%-50% of the maximum depth. Deeper or shallower excavations will result in lower productivity.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;And the benchmark is the optimum depth with the swing angle of 90 degrees.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6ATVnbAERdl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Productivity Example&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Given the following information, find the estimated production in bank cubic meters&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Size of bucket:  2.7 cubic meter&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Material: Sand and gravel&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Maximum digging depth: 7.7 m&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Actual depth of excavation: 2.5 m&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Angle of swing: 120&amp;#176;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Swell percent for this material: 15%&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 57, 96, 144]' blockindent='57' indent='-9'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 57px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Active minutes per hour: 50 minutes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5eYZ9WuRqLC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="49">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Productivity Solution 1&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 1: Size of bucket is given = 2.7 cubic meter&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 2: Bucket fill factor for sand and gravel using the table described before&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;We can use a number in middle, let’s say 103%.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6VzMRPTD4fL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="50">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Productivity Solution 2&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 3: Cycle times using the provided table.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Using the average times, the total cycle times will be 19 seconds&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Optimum depth: 40% of 7.7m = 3.08 m&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Excavation depth/optimum depth = 2.5/3.08 ~ %80&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Given the table introduced before:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;With Percentage of the optimum depth of 80% and swing angle of 120 degrees, the AS:D factor is 0.86&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6Gty2VWe83f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="51">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Productivity Solution 3&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 4: Efficiency factor is 50/60&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 5: Swell percentage is 15%&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Step 6: Overall productivity:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6NEmA0NPBWc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="52">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Choose the configurations that has the lowest production.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6SieP1fe6MU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="53">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Graders&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Graders are multipurpose equipment employed for shaping, grading, bank sloping, ditching, spreading, mixing, and light stripping purposes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Graders blades are commonly called moldboard that are mainly used for shaping and leveling.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Graders blades are attached to a circular mechanism which enables them to rotate easily. This mechanism is called circle.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Small rippers can be installed in the rear end of graders. These rippers are only used for light ripping of soil grounds.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6NmLh2jZCQW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="54">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Grader Operations&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Grader are used for a variety of operations, including:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Leveling surfaces&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Ditch cuts&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Creating a bank slope&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Cleaning ditches&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Moving windrows&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Haul-road maintenance&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Spreading&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 60, 96, 144]' blockindent='60' indent='-12'&gt;&lt;font face='Arial' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 60px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Mixing&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5hOnKNa9YB1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="55">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Time Estimation&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Usually time estimation is used to assess the productivity of graders:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;The parameters in this formula are:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;P = number of passes required&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;D = distance traveled in each pass&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;S = speed of the grader&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;E = grader efficiency factor (usually 60%-70%)&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5j0UyxgvjiU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="56">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Grader Time Example&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Leveling of a 300 meter embankment requires two levelling passes in first gear (3.7 km/h) and two shaping passes in second gear (6 km/hr).&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5c3Z7dgrWre" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="57">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Quiz 2:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Maintenance of a 800 meter haul road requires two levelling passes in first gear (3.5 km/h) and a shaping pass in second gear (5.5 km/hr). Grader efficiency is 63%. The required time is:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;a. 45 minutes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;b. 48 minutes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;c. 53 minutes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;d. 57 minutes&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6aFETihwFsj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="58">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;b&gt;Quiz 2 Solution:&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='12.5pt' style='font-size:12.5pt' color='#444444'&gt;&lt;i&gt;Total Time = d. 57 Minutes&lt;/i&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.5zeJrzdK3ty" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="59">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Summary of Unit 3&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;It is essential to study equipment manufacturers’ handbook to determine equipment capacities and physical limitations&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Characteristics and production levels for excavators and graders in different site conditions were explained&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6SeIM35tAZ0.6KU2yro9Ie4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="60">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;b&gt;Summary of Module 4&lt;/b&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;1. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Candidate equipment for a certain task should match the type and size of the operation &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#000000'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;2. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;Main equipment selection considerations, including tires and tracks, buckets and blades, and end-effectors and accessories, were explained&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 18, 48, 96, 144]' blockindent='18' indent='-18'&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 18px"&gt;3. &lt;/span&gt;&lt;/font&gt;&lt;font face='Open Sans' size='16.5pt' style='font-size:16.5pt' color='#444444'&gt;We discussed how to assess the performance of bulldozers, excavators, and graders using equipment charts, correction factors, and theoretical formulas &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
